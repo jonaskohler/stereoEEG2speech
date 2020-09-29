@@ -34,6 +34,16 @@ to minimize the embedding distance within but maximize across patients.
 The predicted spectrograms can be passed trough any of the state of the art generative models for speech synthesis from spectograms. The current code is designed to create mel spectograms that can be fed right away into the flow based generative WaveGlow model from NVIDIA [4].
 
 
+## Performance
+For the task at hand performance can be evaluated in various ways. Obsiously, we track the values of the objective function but we also provide measurements such as the Pearson-r correlation coefficient. This package also includes the DenseNet model from [2] as a baseline. Finally, the produced audio can be examined naturally.
+
+
+![Some results](/results.png)
+
+
+
+
+### References
 [1] Herff, Christian, Dean J. Krusienski, and Pieter Kubben. "The Potential of Stereotactic-EEG for Brain-Computer Interfaces: Current Progress and Future Directions." Frontiers in Neuroscience 14 (2020): 123.
 
 [2] Angrick, Miguel, et al. "Speech synthesis from ECoG using densely connected 3D convolutional neural networks." Journal of neural engineering 16.3 (2019): 036019.
