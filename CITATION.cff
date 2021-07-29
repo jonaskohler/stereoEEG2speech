@@ -1,0 +1,15 @@
+# YAML 1.2
+---
+authors: 
+  -
+    affiliation: "ETH Zurich"
+    family-names: Kohler
+    given-names: Jonas
+  -
+    affiliation: "University of Maastricht"
+    family-names: Christian
+    given-names: Herff
+cff-version: "1.1.0"
+date-released: 2021-01-01
+message: "If you use this software, please cite it using these metadata."
+...
